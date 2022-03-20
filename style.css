@@ -1,0 +1,104 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    width: 100%
+}
+
+.about_me{
+    text-align: center;
+    color: darkslateblue;
+}
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+.container-header {
+    background-color: darkgreen;
+    height: 20%;
+}
+ul  {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+ul li {
+    margin-right: 40px;
+}
+li a {
+    text-decoration: none;
+    font-size: 45px;
+    color: #17204a;
+    font-weight: 1000;
+}
+.nav{
+    width: 868px;
+    right: 0px;
+    position: relative
+}
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.fullname {
+    margin-right: 20px;
+    flex-basis: 750px;
+    
+}
+.kaptNHka img {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+}
+.knowledge {
+    display: flex;   
+    justify-content: center;
+}
+
+.article {
+    margin-top: 2em;   
+}
+
+
+p {
+    font-size: 1.2rem;
+    color: #08298A;
+    padding-left: 20px;
+}
+
+.text {
+    font-size: 1rem;
+    color: #585858;
+    margin: 0;
+    display: flex;
+    justify-content: center
+}
+
+h2 {
+    text-align: center;
+    color: #424242;
+    margin: 0;
+}
+
+h1 {
+    color: #08298A;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+}
+.base {
+    background-color: yellow;
+    height: 75%;
+}
+
+.footer {
+    background-color: #5882FA;
+    flex: 0 0 auto;
+    bottom: 0px;
+    width: 100%;
+    height: 5%;
+}
